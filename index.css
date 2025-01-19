@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #74ebd5, #9face6); /* Vibrant gradient */
+    background: linear-gradient(135deg, #74ebd5, #9face6);
     color: #333;
     display: flex;
     flex-direction: column;
@@ -17,26 +17,24 @@ body {
     overflow-x: hidden;
 }
 
-/* Heading */
+
 h1 {
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
-    color: #4b6584; /* Deep blue-gray */
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 15px;
     font-size: 2.5rem;
     font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-bottom: 4px solid #f9ca24; /* Yellow border for energy */
+    border-bottom: 4px solid #f9ca24;
     text-transform: uppercase;
 }
 
-/* Todo Container */
+
 .todo {
-    background: rgba(255, 255, 255, 0.9); /* Slight transparency for layering */
+    background: rgba(255, 255, 255, 0.9);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -46,49 +44,49 @@ h1 {
     margin-top: 20px;
 }
 
-/* Input Field */
+
 input[type="text"] {
     width: 65%;
     padding: 12px;
-    border: 2px solid #f9ca24; /* Vibrant yellow border */
+    border: 2px solid #f9ca24; 
     border-radius: 10px;
     font-size: 16px;
     margin-right: 10px;
     outline: none;
-    background: #f7f1e3; /* Soft cream background */
+    background: #f7f1e3; 
     color: #2c3e50;
     transition: border-color 0.3s ease;
 }
 
 input[type="text"]::placeholder {
-    color: #7f8c8d; /* Subtle gray */
+    color: #7f8c8d; 
 }
 
 input[type="text"]:focus {
-    border-color: #eb4d4b; /* Bright red focus */
+    border-color: #eb4d4b; 
 }
 
-/* Buttons */
+
 button {
     padding: 12px 18px;
     font-size: 16px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #6ab04c; /* Fresh green */
+    background-color: #6ab04c; 
     color: #fff;
     transition: background-color 0.3s ease, transform 0.2s ease;
     font-weight: bold;
 }
 
 button:hover {
-    background-color: #44bd32; /* Darker green */
+    background-color: #44bd32;
     transform: scale(1.05);
 }
 
-/* Delete Button */
+
 .delete {
-    background-color: #eb4d4b; /* Bright red */
+    background-color: #eb4d4b; 
     color: #fff;
     margin-left: 10px;
     padding: 8px 14px;
@@ -100,11 +98,10 @@ button:hover {
 }
 
 .delete:hover {
-    background-color: #c23616; /* Darker red */
+    background-color: #c23616; 
     transform: scale(1.1);
 }
 
-/* Task List */
 ul {
     list-style: none;
     padding: 0;
@@ -112,8 +109,8 @@ ul {
 }
 
 li {
-    background: #f7f1e3; /* Cream background */
-    color: #2c3e50; /* Dark text */
+    background: #f7f1e3; 
+    color: #2c3e50; 
     padding: 15px 20px;
     margin: 10px 0;
     border-radius: 10px;
@@ -126,10 +123,9 @@ li {
 }
 
 li:hover {
-    background-color: #f9ca24; /* Yellow highlight on hover */
+    background-color: #f9ca24;
 }
 
-/* Scrollbar Styling */
 ul {
     max-height: 300px;
     overflow-y: auto;
@@ -140,7 +136,7 @@ ul::-webkit-scrollbar {
 }
 
 ul::-webkit-scrollbar-thumb {
-    background-color: #6ab04c; /* Green scrollbar */
+    background-color: #6ab04c; 
     border-radius: 10px;
 }
 
